@@ -1,1 +1,2 @@
-echo "hello!!!"
+echo "hello!"
+echo "CONFIDENTIAL_ENV_VAR=$CONFIDENTIAL_ENV_VAR"
