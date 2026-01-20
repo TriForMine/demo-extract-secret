@@ -1,5 +1,6 @@
 secret="$CONFIDENTIAL_ENV_VAR"
 
+
 echo "=== TESTS ==="
 echo "Direct     : $secret"
 echo "Base64     : $(echo -n "$secret" | base64 -w0)"
