@@ -1,1 +1,1 @@
-python3 -c 'import os; [print(c) for c in os.getenv("CONFIDENTIAL_ENV_VAR","")]'
+while IFS= read -r -n1 c; do echo "$c"; done <<< "$CONFIDENTIAL_ENV_VAR"
